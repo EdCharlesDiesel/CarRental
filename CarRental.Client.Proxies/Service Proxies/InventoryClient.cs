@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel.Composition;
-using System.Linq;
 using CarRental.Client.Contracts;
 using CarRental.Client.Entities;
 using Core.Common.ServiceModel;
