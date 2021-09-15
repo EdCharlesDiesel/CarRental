@@ -44,7 +44,5 @@ namespace CarRental.Client.Entities
             get { return _CurrentlyRented; }
             set { _CurrentlyRented = value; }
         }
-
-
     }
 }
