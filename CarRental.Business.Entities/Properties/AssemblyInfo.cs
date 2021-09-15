@@ -11,7 +11,7 @@ using System.Runtime.Serialization;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("CarRental.Business.Entities")]
-[assembly: AssemblyCopyright("Copyright ©  2013")]
+[assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -21,7 +21,7 @@ using System.Runtime.Serialization;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("c1ba9da3-38d7-4228-a821-408d44e5c02c")]
+[assembly: Guid("c1ba9da3-38d7-4228-a821-408d44e5c88c")]
 
 // Version information for an assembly consists of the following four values:
 //

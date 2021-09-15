@@ -1,7 +1,6 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Linq;
 using System.Linq.Expressions;
 using Core.Common.Utils;
 
@@ -11,7 +10,8 @@ namespace Core.Common.Core
     {
         private event PropertyChangedEventHandler _PropertyChangedEvent;
 
-        protected List<PropertyChangedEventHandler> _PropertyChangedSubscribers = new List<PropertyChangedEventHandler>();
+        protected List<PropertyChangedEventHandler> _PropertyChangedSubscribers = 
+            new List<PropertyChangedEventHandler>();
 
         public event PropertyChangedEventHandler PropertyChanged
         {
