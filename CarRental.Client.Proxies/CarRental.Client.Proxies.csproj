@@ -54,10 +54,6 @@
     <Compile Include="ServiceFactory.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CarRental.Client.Contracts\CarRental.Client.Contracts.csproj">
-      <Project>{fb31e6ac-e4eb-4b06-a860-99f4b8102a08}</Project>
-      <Name>CarRental.Client.Contracts</Name>
-    </ProjectReference>
     <ProjectReference Include="..\CarRental.Client.Entities\CarRental.Client.Entities.csproj">
       <Project>{1e201e0e-e913-4fbf-9c78-5a8ec57f176b}</Project>
       <Name>CarRental.Client.Entities</Name>

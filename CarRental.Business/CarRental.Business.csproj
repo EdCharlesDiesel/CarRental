@@ -51,10 +51,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CarRental.Business.Common\CarRental.Business.Common.csproj">
-      <Project>{fa146bf5-979a-4d43-905f-c36050a8b3a2}</Project>
-      <Name>CarRental.Business.Common</Name>
-    </ProjectReference>
     <ProjectReference Include="..\CarRental.Business.Entities\CarRental.Business.Entities.csproj">
       <Project>{8c08456c-6506-4630-844b-9230a7b630a4}</Project>
       <Name>CarRental.Business.Entities</Name>
