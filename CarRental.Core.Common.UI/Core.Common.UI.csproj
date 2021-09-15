@@ -70,8 +70,8 @@
       <Project>{5f9b5530-f150-4bf0-9d07-0ad8a4c6ef7d}</Project>
       <Name>Core.Common.Contracts</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Core.Common\Core.Common.csproj">
-      <Project>{f6bcff98-a714-4b7b-978f-23d812d1744a}</Project>
+    <ProjectReference Include="..\CarRental.Core.Common\Core.Common.csproj">
+      <Project>{13829cd5-fb45-4480-affb-d5010f222b2c}</Project>
       <Name>Core.Common</Name>
     </ProjectReference>
   </ItemGroup>

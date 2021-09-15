@@ -6,11 +6,12 @@ using System.Net.Http;
 using System.Security;
 using System.ServiceModel;
 using System.Web.Http;
+using System.Web.Mvc;
 using CarRental.Common;
 
 namespace CarRental.Web.Core
 {
-    public class ApiControllerBase : ApiController, IServiceAwareController
+    public class ApiControllerBase : ControllerBase, IServiceAwareController
     {
         List<IDisposable> _DisposableServices;
 
@@ -67,6 +68,11 @@ namespace CarRental.Web.Core
             }
 
             return response;
+        }
+
+        protected override void ExecuteCore()
+        {
+            throw new NotImplementedException();
         }
     }
 }

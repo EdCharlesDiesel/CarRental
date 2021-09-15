@@ -89,6 +89,18 @@
       <Project>{5f9b5530-f150-4bf0-9d07-0ad8a4c6ef7d}</Project>
       <Name>Core.Common.Contracts</Name>
     </ProjectReference>
+    <ProjectReference Include="..\CarRental.Core.Common.ServiceModel\Core.Common.ServiceModel.csproj">
+      <Project>{73FBE0BF-9DB9-498E-8AEF-68210104D0C1}</Project>
+      <Name>Core.Common.ServiceModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CarRental.Core.Common.UI\Core.Common.UI.csproj">
+      <Project>{5DF27A6C-2466-4BAA-B379-90D3D60AD5BA}</Project>
+      <Name>Core.Common.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CarRental.Core.Common\Core.Common.csproj">
+      <Project>{13829CD5-FB45-4480-AFFB-D5010F222B2C}</Project>
+      <Name>Core.Common</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
