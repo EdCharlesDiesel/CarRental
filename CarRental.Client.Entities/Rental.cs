@@ -89,5 +89,6 @@ namespace CarRental.Client.Entities
                 }
             }
         }
+
     }
 }

@@ -444,6 +444,14 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\CarRental.Business.Bootstrapper\CarRental.Business.Bootstrapper.csproj">
+      <Project>{9d1687b7-accb-48ba-9662-ed1095fbee84}</Project>
+      <Name>CarRental.Business.Bootstrapper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CarRental.Business.Common\CarRental.Business.Common.csproj">
+      <Project>{fa146bf5-979a-4d43-905f-c36050a8b3a2}</Project>
+      <Name>CarRental.Business.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\CarRental.Client.Bootstrapper\CarRental.Client.Bootstrapper.csproj">
       <Project>{42f37cc3-3c28-493b-9517-83ef00c8c5f2}</Project>
       <Name>CarRental.Client.Bootstrapper</Name>
@@ -460,13 +468,13 @@
       <Project>{99995783-eb5e-48cc-aa60-255905c8bd6a}</Project>
       <Name>CarRental.Client.Proxies</Name>
     </ProjectReference>
-    <ProjectReference Include="..\CarRental.Common.Contracts\CarRental.Common.Contracts.csproj">
-      <Project>{ef9adbde-08cd-48aa-a835-4935cdb26c27}</Project>
-      <Name>CarRental.Common.Contracts</Name>
-    </ProjectReference>
     <ProjectReference Include="..\CarRental.Common\CarRental.Common.csproj">
       <Project>{b3e73806-d11b-4c40-8ed9-a326a2b7e507}</Project>
       <Name>CarRental.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CarRental.Core.Common\Core.Common.csproj">
+      <Project>{13829cd5-fb45-4480-affb-d5010f222b2c}</Project>
+      <Name>Core.Common</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

@@ -19,9 +19,7 @@ namespace CarRental.Business.Managers
                      ReleaseServiceInstanceOnTransactionComplete = false)]
     public class RentalManager : ManagerBase, IRentalService
     {
-        public RentalManager()
-        {
-        }
+        public RentalManager(){}
 
         public RentalManager(IDataRepositoryFactory dataRepositoryFactory)
         {

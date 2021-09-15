@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.Composition;
-using System.Linq;
+﻿using System.ComponentModel.Composition;
 using CarRental.Web.Core;
 using WebMatrix.WebData;
 
 namespace CarRental.Web.Services
 {
+    /// <summary>
+    /// 
+    /// </summary>
     [Export(typeof(ISecurityAdapter))]
     [PartCreationPolicy(CreationPolicy.NonShared)]
     public class SecurityAdapter : ISecurityAdapter

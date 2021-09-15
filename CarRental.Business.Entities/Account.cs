@@ -44,7 +44,6 @@ namespace CarRental.Business.Entities
             get { return AccountId; }
             set { AccountId = value; }
         }
-
         #endregion
 
         #region IAccountOwnedEntity

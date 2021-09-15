@@ -19,9 +19,7 @@ namespace CarRental.Business.Managers
                      ReleaseServiceInstanceOnTransactionComplete = false)]
     public class InventoryManager : ManagerBase, IInventoryService
     {
-        public InventoryManager()
-        {
-        }
+        public InventoryManager() {}
         
         public InventoryManager(IDataRepositoryFactory dataRepositoryFactory)
         {

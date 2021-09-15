@@ -3,6 +3,7 @@ using CarRental.Client.Entities;
 
 namespace CarRental.Admin.Support
 {
+
     public class CarEventArgs : EventArgs
     {
         public CarEventArgs(Car car, bool isNew)

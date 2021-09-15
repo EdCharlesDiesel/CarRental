@@ -2,6 +2,7 @@
 using Core.Common.Contracts;
 using Core.Common.Core;
 
+
 namespace CarRental.Client.Proxies
 {
     [Export(typeof(IServiceFactory))]

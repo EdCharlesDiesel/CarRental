@@ -12,6 +12,7 @@ namespace CarRental.Client.Bootstrapper
             return Init(null);
         }
 
+
         public static CompositionContainer Init(ICollection<ComposablePartCatalog> catalogParts)
         {
             AggregateCatalog catalog = new AggregateCatalog();

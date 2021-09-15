@@ -47,11 +47,11 @@ namespace CarRental.Business
             return rented;
         }
 
-        public bool IsCarAvailableForRental(int carId, DateTime pickupDate, DateTime returnDate, 
+        public bool IsCarAvailableForRental(int carId, DateTime pickupDate, DateTime returnDate,
                                             IEnumerable<Rental> rentedCars, IEnumerable<Reservation> reservedCars)
         {
             bool available = true;
-            
+
             Reservation reservation = reservedCars.Where(item => item.CarId == carId).FirstOrDefault();
             if (reservation != null && (
                 (pickupDate >= reservation.RentalDate && pickupDate <= reservation.ReturnDate) ||

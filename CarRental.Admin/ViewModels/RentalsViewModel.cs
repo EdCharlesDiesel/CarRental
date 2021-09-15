@@ -1,5 +1,4 @@
 using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel.Composition;
 using System.Linq;
@@ -12,6 +11,9 @@ using Core.Common.UI.Core;
 
 namespace CarRental.Admin.ViewModels
 {
+    /// <summary>
+    /// 
+    /// </summary>
     [Export]
     [PartCreationPolicy(CreationPolicy.NonShared)]
     public class RentalsViewModel : ViewModelBase

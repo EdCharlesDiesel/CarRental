@@ -62,6 +62,14 @@
       <Project>{b3e73806-d11b-4c40-8ed9-a326a2b7e507}</Project>
       <Name>CarRental.Common</Name>
     </ProjectReference>
+    <ProjectReference Include="..\CarRental.Core.Common.ServiceModel\Core.Common.ServiceModel.csproj">
+      <Project>{73fbe0bf-9db9-498e-8aef-68210104d0c1}</Project>
+      <Name>Core.Common.ServiceModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CarRental.Core.Common\Core.Common.csproj">
+      <Project>{13829cd5-fb45-4480-affb-d5010f222b2c}</Project>
+      <Name>Core.Common</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

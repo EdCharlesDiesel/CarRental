@@ -1,7 +1,4 @@
-using System;
-using System.Collections.Generic;
 using System.ComponentModel.Composition;
-using System.Linq;
 using CarRental.Client.Contracts;
 using CarRental.Client.Entities;
 using Core.Common.Contracts;
@@ -9,6 +6,9 @@ using Core.Common.UI.Core;
 
 namespace CarRental.Admin.ViewModels
 {
+    /// <summary>
+    /// 
+    /// </summary>
     [Export]
     [PartCreationPolicy(CreationPolicy.NonShared)]
     public class DashboardViewModel : ViewModelBase

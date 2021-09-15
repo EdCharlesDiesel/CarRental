@@ -7,6 +7,7 @@ using Core.Common.Exceptions;
 
 namespace CarRental.Client.Contracts
 {
+
     [ServiceContract]
     public interface IRentalService
     {

@@ -5,6 +5,9 @@ using AttributeRouting.Web.Mvc;
 
 namespace CarRental.Web 
 {
+	/// <summary>
+	/// 
+	/// </summary>
     public static class AttributeRoutingConfig
 	{
 		public static void RegisterRoutes(RouteCollection routes) 

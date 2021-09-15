@@ -88,5 +88,6 @@ namespace CarRental.Business.Contracts
         [FaultContract(typeof(NotFoundException))]
         [FaultContract(typeof(AuthorizationValidationException))]
         bool IsCarCurrentlyRented(int carId);
+
     }
 }

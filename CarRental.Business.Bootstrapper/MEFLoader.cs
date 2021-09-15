@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.Composition.Hosting;
-using System.Linq;
+﻿using System.ComponentModel.Composition.Hosting;
 using CarRental.Business.Managers;
 using CarRental.Data;
 

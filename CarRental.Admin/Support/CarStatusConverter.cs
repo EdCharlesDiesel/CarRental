@@ -1,10 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Windows.Data;
 
 namespace CarRental.Admin.Support
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public class CarStatusConverter : IValueConverter
     {
         object IValueConverter.Convert(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)

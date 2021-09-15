@@ -18,5 +18,6 @@ namespace CarRental.Client.Proxies
         {
             Channel.UpdateCustomerAccountInfo(account);
         }
+
     }
 }

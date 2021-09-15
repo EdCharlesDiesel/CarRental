@@ -54,14 +54,6 @@
     <Compile Include="Service Contracts\IRentalService.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Core\Core.Common.ServiceModel\Core.Common.ServiceModel.csproj">
-      <Project>{73fbe0bf-9db9-498e-8aef-68210104d0c1}</Project>
-      <Name>Core.Common.ServiceModel</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\Core\Core.Common\Core.Common.csproj">
-      <Project>{f6bcff98-a714-4b7b-978f-23d812d1744a}</Project>
-      <Name>Core.Common</Name>
-    </ProjectReference>
     <ProjectReference Include="..\CarRental.Client.Entities\CarRental.Client.Entities.csproj">
       <Project>{1e201e0e-e913-4fbf-9c78-5a8ec57f176b}</Project>
       <Name>CarRental.Client.Entities</Name>
@@ -69,6 +61,10 @@
     <ProjectReference Include="..\CarRental.Common\CarRental.Common.csproj">
       <Project>{b3e73806-d11b-4c40-8ed9-a326a2b7e507}</Project>
       <Name>CarRental.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CarRental.Core.Common.ServiceModel\Core.Common.ServiceModel.csproj">
+      <Project>{73fbe0bf-9db9-498e-8aef-68210104d0c1}</Project>
+      <Name>Core.Common.ServiceModel</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup />

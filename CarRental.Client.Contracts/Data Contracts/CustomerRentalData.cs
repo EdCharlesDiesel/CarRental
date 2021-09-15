@@ -4,6 +4,7 @@ using Core.Common.ServiceModel;
 
 namespace CarRental.Client.Contracts
 {
+
     [DataContract]
     public class CustomerRentalData : DataContractBase
     {

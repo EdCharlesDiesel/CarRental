@@ -74,6 +74,14 @@
       <Project>{b3e73806-d11b-4c40-8ed9-a326a2b7e507}</Project>
       <Name>CarRental.Common</Name>
     </ProjectReference>
+    <ProjectReference Include="..\CarRental.Core.Common.Contracts\Core.Common.Contracts.csproj">
+      <Project>{5f9b5530-f150-4bf0-9d07-0ad8a4c6ef7d}</Project>
+      <Name>Core.Common.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CarRental.Core.Common\Core.Common.csproj">
+      <Project>{13829cd5-fb45-4480-affb-d5010f222b2c}</Project>
+      <Name>Core.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\CarRental.Data.Contracts\CarRental.Data.Contracts.csproj">
       <Project>{f938d48c-fdf4-4b16-87a9-60d8fcebce72}</Project>
       <Name>CarRental.Data.Contracts</Name>
